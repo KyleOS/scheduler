@@ -5,7 +5,7 @@ name: Treebeard Jupyter Notebook CI
 on:
   push:
   schedule:
-    - cron: "0 0 * * 0" # weekly
+    - cron: "* * * * *" # every minute
 jobs:
   run:
     runs-on: ubuntu-latest
